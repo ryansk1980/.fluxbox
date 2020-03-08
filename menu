@@ -1,0 +1,87 @@
+[begin] (Fluxbox)
+ [submenu] (Applications)
+
+  [submenu] (Terminals)
+   [exec] (Xterm) {xterm -rv +sb -fn fixed}
+  [end]
+
+  [submenu] (Browsers)
+   [exec] (Firefox) {firefox -width 1280 -height 1024}
+   [exec] (Lynx) {xterm -rv +sb -fn fixed -e lynx}
+  [end]
+
+  [submenu] (Mail)
+   [exec] (Mutt) {xterm -rv +sb -fn fixed -e mutt}
+  [end]
+
+  [submenu] (Messaging)
+   [exec] (Irssi) {xterm -rv +sb -fn fixed -e irssi}
+  [end]
+
+  [submenu] (File Managers)
+   [exec] (Thunar) {thunar}
+  [end]
+
+  [submenu] (File Transfer)
+   [exec] (Ftp) {xterm -rv +sb -fn fixed -e ftp}
+  [end]
+
+  [submenu] (Graphics)
+   [exec] (Gimp) {gimp}
+  [end]
+
+  [submenu] (Multimedia)
+   [exec] (Vlc) {vlc}
+  [end]
+
+  [submenu] (Editors)
+   [exec] (Vim) {xterm -rv +sb -fn fixed -e vim}
+   [exec] (Nano) {xterm -rv +sb -fn fixed -e nano}
+  [end]
+
+  [submenu] (Viewers)
+   [exec] (Xpdf) {xpdf}
+  [end]
+
+  [submenu] (Work)
+   [exec] (Soffice) {soffice}
+  [end]
+
+  [submenu] (Development)
+   [exec] (Qt Designer) {designer}
+   [exec] (Idle) {idle}
+   [exec] (Tclsh) {xterm -rv +sb -fn fixed -e tclsh}
+   [exec] (Python) {xterm -rv +sb -fn fixed -e python}
+   [exec] (Xev) {xterm -rv +sb -fn fixed -e xev}
+  [end]
+
+  [submenu] (System)
+   [exec] (Top) {xterm -rv +sb -fn fixed -e top}
+  [end]
+
+  [submenu] (Shells)
+   [exec] (Bash) {xterm -rv +sb -fn fixed -e bash}
+  [end]
+
+ [end]
+
+ [submenu] (User Styles)
+   [stylesdir] (/home/omar/.fluxbox/styles)
+ [end]
+
+ [submenu] (Default Styles)
+   [stylesdir] (/usr/share/fluxbox/styles)
+ [end]
+
+ [workspaces] (Workspace List)
+ [config] (Configuration)
+    
+ [reconfig] (Reconfigure)
+ [restart] (Restart)
+
+ [submenu] (Others) {Other Window Managers}
+  [restart] (Openbox) {openbox}
+ [end]
+
+ [exit] (Exit)
+[end]
